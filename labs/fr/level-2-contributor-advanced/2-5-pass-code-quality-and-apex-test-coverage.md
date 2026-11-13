@@ -5,7 +5,7 @@ description: "Corrigez une trouvaille PMD et la couverture de code Apex qui bloq
 level: 2
 lab: 5
 lang: fr
-source_rev: "57fa3fbaf99607ed0ae56d18a1cecad355c0c1cf"
+source_rev: "2f386b1b9dd5e5ad648ba643f272bc589ea1db70"
 screenshots:
   - annotated/vscode/pipeline-cards--new-user-story
   - annotated/vscode/org-monitoring--apex-tests
@@ -21,7 +21,7 @@ depends_on:
 
 **Niveau** : 2 Contributeur avancé
 
-**Durée** : ~30 min<!-- observed --> (observé : médiane 31 min, 8 participants, le plus rapide 13 min)<!-- /observed -->
+**Durée** : ~25 min<!-- observed --> (observé : médiane 26 min, 17 participants, le plus rapide 9 min)<!-- /observed -->
 
 **Vous allez** : être bloqué deux fois par des robots, corriger les deux correctement plutôt que de
 les contourner, et apprendre à lancer les contrôles avant de pousser.
@@ -324,7 +324,7 @@ tests de l'org, à chaque fois.
 
 1. Poussez, et lisez ce qu'ils disent sur la Pull Request
 
-#### Pourquoi
+#### Pourquoi dans la CI
 
 Les linters sont le seul contrôle que vous ne pouvez pas utilement lancer sur votre machine,
 parce qu'il leur faut une image de conteneur que la CI possède déjà. Cela fait deux minutes
